@@ -72,5 +72,74 @@ START-OF-SELECTION.
   
   *-------------------------------------------------------------*
 *如何获取下拉框选择值
-*add 20210226
+*end 20210226
 *-------------------------------------------------------------
+
+
+
+**  实现全选checkbox  20210226
+*-------------------------------------------------------------
+
+* Constants
+
+*-------------------------------------------------------------
+
+CONSTANTS: c_title(10) VALUE 'Options'.
+
+*-------------------------------------------------------------
+
+* Selection Screen
+
+*-------------------------------------------------------------
+
+SELECTION-SCREEN: BEGIN OF BLOCK b1 WITH FRAME TITLE v_name.
+
+SELECTION-SCREEN: SKIP.
+
+PARAMETERS: cb_all AS CHECKBOX USER-COMMAND uc.
+
+SELECTION-SCREEN: SKIP.
+
+PARAMETERS: cb_a AS CHECKBOX,
+
+cb_b AS CHECKBOX,
+
+cb_c AS CHECKBOX,
+
+cb_d AS CHECKBOX,
+
+cb_e AS CHECKBOX.
+
+SELECTION-SCREEN: END OF BLOCK b1.
+
+*-------------------------------------------------------------
+
+* At Selection Screen Event
+
+*-------------------------------------------------------------
+
+AT SELECTION-SCREEN.
+
+IF sy-ucomm = 'UC'.
+
+IF cb_all = 'X'.
+
+cb_a = cb_b = cb_c = cb_d = cb_e = 'X'.
+
+ELSE.
+
+Clear: cb_a, cb_b, cb_c, cb_d, cb_e.
+
+ENDIF.
+
+ENDIF.
+
+*-------------------------------------------------------------
+
+* Initialization
+
+*-------------------------------------------------------------
+
+INITIALIZATION.
+
+v_name = c_title.
