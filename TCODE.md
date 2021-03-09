@@ -9,10 +9,15 @@
 ***SWO1*  Business Object builder** 
 
 ​     Module	                  BC
+
 ​     Component	           BC-DWB
+
 ​     SAP Package	          SWO
+
 ​     Program running	  SAPLSWOO
+
 ​     Screen No	              100
+
 ​     Type	                          T
 
 SWO1 related transaction codes under SAP package SWO
