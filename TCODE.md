@@ -8,19 +8,21 @@
 
 ***SWO1*  Business Object builder** 
 
-​     Module	                  BC
+​         Module	                  BC
 
-​     Component	           BC-DWB
+​         Component	           BC-DWB
 
-​     SAP Package	          SWO
+​         SAP Package	          SWO
 
-​     Program running	  SAPLSWOO
+​         Program running	  SAPLSWOO
 
-​     Screen No	              100
+​        Screen No	              100
 
-​     Type	                          T
+​        Type	                          T
 
-SWO1 related transaction codes under SAP package SWO
+
+
+​           SWO1 related transaction codes under SAP package SWO
 
 - *SWO2* : BOR Browser
 
