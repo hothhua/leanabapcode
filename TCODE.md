@@ -57,3 +57,9 @@ Business Object Processing Framework is a well-established framework ad not real
 ***BOB***
 
 ​      Business Object Builder (BO Builder) is an application that allows you to create, change, and enhance business objects and business object enhancements (enhancements) in Business Object Processing Framework (BOPF)。
+
+
+
+<!--Dynpro-->
+
+***SE80***  To access Web Dynpro runtime environment and graphical tools in ABAP workbench。
