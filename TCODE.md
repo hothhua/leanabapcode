@@ -63,3 +63,21 @@ Business Object Processing Framework is a well-established framework ad not real
 <!--Dynpro-->
 
 ***SE80***  To access Web Dynpro runtime environment and graphical tools in ABAP workbench。
+
+
+
+<!-- 基础语法  -->
+
+**generic ABAP type**
+
+Predefined generic data type. The generic ABAP types are: any, any table, c, clike, csequence, data, decfloat, hashed table, index table, n, numeric, p, simple, sorted table, standard table, table, x, and xsequence.
+
+**interface work area**
+
+Specific type of data object that can act as a cross-program interface between programs and dynpros, and between programs and logical databases. Interface work areas are either table work areas or common areas (obsolete). All programs in a program group access the same data of an interface work area.
+
+**TABLES table_wa.**
+
+This statement is not allowed in classes and declares a data object table_wa as a table work area whose data type is taken from the identically named structured data type table_wa in ABAP Dictionary
+
+Table work areas declared using TABLES are interface work areas and should only be declared in the global declaration part of a program for the following purpose:
