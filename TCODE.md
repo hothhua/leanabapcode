@@ -80,4 +80,14 @@ Specific type of data object that can act as a cross-program interface between p
 
 This statement is not allowed in classes and declares a data object table_wa as a table work area whose data type is taken from the identically named structured data type table_wa in ABAP Dictionary
 
-Table work areas declared using TABLES are interface work areas and should only be declared in the global declaration part of a program for the following purpose:
+Table work areas declared using TABLES are interface work areas and should only be declared in the global declaration part of a program
+
+
+
+**Internal tables** − Internal tables are a means of storing data in the fixed format in working memory of ABAP. The data is stored line by line. So it is necessary for the data to be in a fixed format. Generally, they are used to store data in database tables to be used in ABAP programs.
+
+**Structures**−  Structures are basically data objects consisting of various components or fields of any data types. It differs from the tables in a way that it simulates the format of the table and is used to hold one row of data whereas table has multiple rows of data.
+
+**Work-Areas** −  Work area is basically variables used to store a single row of data. It is similar to structure apart from the fact that it can only be used at program level whereas structure can be used at data dictionary level as well.   
+
+​     A work area is also a structure which holds single data at runtime and has pre allocated memory in database.
