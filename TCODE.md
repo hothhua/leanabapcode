@@ -1,6 +1,6 @@
 ***SU53*** check if you have the required level of authorisation to run this and any transaction use SU53
 
-
+***SOTR_EDIT*** One further central repository for texts is Online Text Repository (OTR), which can be accessed using the transaction 
 
 ***SE38*  ABAP Editor**
 
