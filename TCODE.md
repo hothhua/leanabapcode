@@ -1,7 +1,7 @@
 ***SU53*** check if you have the required level of authorisation to run this and any transaction use SU53
 
 ***SOTR_EDIT*** One further central repository for texts is Online Text Repository (OTR), which can be accessed using the transaction 
-***SE91*** Messages are created in the message editor
+***SE91*** Messages are created in the message editor. The short texts in Table T100,  The long texts associated with a message are managed as SAPscript documents in the document class NA.
 
 ***SE38*  ABAP Editor**
 
