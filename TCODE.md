@@ -92,3 +92,6 @@ Table work areas declared using TABLES are interface work areas and should only 
 **Work-Areas** −  Work area is basically variables used to store a single row of data. It is similar to structure apart from the fact that it can only be used at program level whereas structure can be used at data dictionary level as well.   
 
 ​     A work area is also a structure which holds single data at runtime and has pre allocated memory in database.
+
+
+As Convention the include name start with "CI_" and are available in Various Enhancements accessible using ***SMOD*** and ***CMOD*** Transactions
