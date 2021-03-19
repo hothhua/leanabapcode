@@ -5,3 +5,15 @@
 **Definition of specific processes** - processes that are repeated often and that must follow specific business rules. For example, business partner creation. After each business partner is created you need to set up additional information such as credit limit, contact information, and technical information for data exchange with the business partner. Another example is the hiring process. 
 
 **Revision of processes** - processes that could be audited, or areas where you want proof of execution for Sarbanes Oxley compliance, or other government or corporate policy regulations.
+
+
+
+![img](https://blogs.sap.com/wp-content/uploads/2021/02/Picture3-16.png)
+
+![img](https://blogs.sap.com/wp-content/uploads/2021/02/Picture2-18.png)
+
+
+
+
+
+**AppGyver**    SAP Acquires No-Code Development Pioneer AppGyver。  *20210211*
