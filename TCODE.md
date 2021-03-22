@@ -95,3 +95,12 @@ Table work areas declared using TABLES are interface work areas and should only 
 
 
 As Convention the include name start with "CI_" and are available in Various Enhancements accessible using ***SMOD*** and ***CMOD*** Transactions
+
+<!-- 工作流  -->
+PPOCE     Define Organization Plan 
+
+PFTC_INS  Create Workflow template, to create a basic template of workflow,
+
+SWDD     Build the workflow in the workflow builder
+
+SBWP     Test in SAP Inbox
