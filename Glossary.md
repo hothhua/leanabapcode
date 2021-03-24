@@ -36,5 +36,7 @@ Table work areas declared using TABLES are interface work areas and should only 
 
 ​     A work area is also a structure which holds single data at runtime and has pre allocated memory in database.
 
-
 As Convention the include name start with "CI_" and are available in Various Enhancements accessible using ***SMOD*** and ***CMOD*** Transactions
+
+
+

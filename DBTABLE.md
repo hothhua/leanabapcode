@@ -12,6 +12,10 @@ KNB1-户主数据（公司代码层）: KNB1 is a standard Financial Accounting 
 
 KNC1:   *KNC1* is a standard Financial Accounting Transparent *Table in SAP* FI application, which stores Customer master (transaction figures) data.
 
+T100   message database table 
+
+
+
 <!-- Data element -->
 
 PSTLZ   邮编  PPIN
