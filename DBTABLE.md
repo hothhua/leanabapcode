@@ -14,6 +14,7 @@ KNC1:   *KNC1* is a standard Financial Accounting Transparent *Table in SAP* FI 
 
 T100   message database table 
 
+VBRK: 销售发票抬头表  Billing Document: Header Data
 
 
 <!-- Data element -->
