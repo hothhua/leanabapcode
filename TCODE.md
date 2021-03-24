@@ -28,6 +28,8 @@
 
 ​           SWO1 related transaction codes under SAP package SWO
 
+- *SM30* : View maintance
+
 - *SWO2* : BOR Browser
 
 - *SWO3* : Business Object Builder
