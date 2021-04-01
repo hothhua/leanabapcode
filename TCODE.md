@@ -8,49 +8,39 @@
 
 <!-- end -->
 
-***SE38*  ABAP Editor**
+***
 
-***SE41*  MENU Paniter**
-
-***SE51*  Screen Painter**
-
-**SE16* : Data Browser**
+***SE16***   Data Browser
 
 ***SWO1*  Business Object builder** 
 
-​         Module	                  BC
+| Module          | BC       |
+| --------------- | -------- |
+| Component       | BC-DWB   |
+| SAP Package     | SWO      |
+| Program running | SAPLSWOO |
+| Screen No       | 100      |
+| Type            | T        |
 
-​         Component	           BC-DWB
+***SM30*** : View maintance
 
-​         SAP Package	          SWO
+***SWO2*** : BOR Browser
 
-​         Program running	  SAPLSWOO
+**SWO3** : Business Object Builder
 
-​        Screen No	              100
+***SWO6*** : Customizing Object Types
 
-​        Type	                          T
+**SWO1**: Business Object Builder
+
+**INT_BAPI** : BAPI Browser
+
+***SWO4*** : Business Object Repository
+
+**BAPI45** : BAPI Browser
+
+**SWO_ASYN** : Asynchronous Method Call in BOR
 
 
-
-- *SM30* : View maintance
-
-- *SWO2* : BOR Browser
-
-- *SWO3* : Business Object Builder
-
-- *SWO6* : Customizing Object Types
-
-- *SWO1* : Business Object Builder
-
-- *INT_BAPI* : BAPI Browser
-
-- *SWO4* : Business Object Repository
-
-- *BAPI45* : BAPI Browser
-
-- *SWO_ASYNC* : Asynchronous Method Call in BOR
-
-  
 
 ***BOB***
 
@@ -59,6 +49,14 @@
 <!--Dynpro-->
 
 ***SE80***  To access Web Dynpro runtime environment and graphical tools in ABAP workbench。
+
+***SE38***  ABAP Editor
+
+***SE41***  MENU Paniter
+
+***SE51***  Screen Painter
+
+
 
 <!-- 工作流  -->
 **PPOCE**     Define Organization Plan 
