@@ -9,6 +9,9 @@
 <!-- end -->
 
 ***SE38*  ABAP Editor**
+***SE41*  MENU Paniter**
+***SE51*  Screen Painter**
+
 
 ***SWO1*  Business Object builder** 
 
